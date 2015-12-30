@@ -1,0 +1,17 @@
+Package: mooseapp
+Title: Interactive visualization and analysis of Moosilauke data
+Version: 0.0.0.9000
+Authors@R: person("Noah", "Peart", email = "noah.v.peart@gmail.com", role = c("aut", "cre"))
+Maintainer: Noah Peart <noah.v.peart@gmail.com>
+Description: This package provides a wrapper for a shiny app to interact with some of the Moosilauke data.
+Depends: 
+    R (>= 3.2.2),
+    sync.afs,
+    datavis,
+    dirs
+License: GPL-2
+LazyData: true
+Imports: 
+    devtools,
+    shiny
+RoxygenNote: 5.0.1
