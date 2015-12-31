@@ -1,12 +1,13 @@
 ### server.R --- 
 ## Filename: server.R
-## Description: 
+## Description: Server for shiny app
 ## Author: Noah Peart
 ## Created: Tue Oct 20 22:15:39 2015 (-0400)
-## Last-Updated: Mon Oct 26 17:53:33 2015 (-0400)
+## Last-Updated: Wed Dec 30 17:24:02 2015 (-0500)
 ##           By: Noah Peart
 ######################################################################
-## Testing out partials/controllers separation
+## Each partial (UI) should have an associated controller
+## An example:
 ## https://github.com/jcheng5/shiny-partials/blob/master/server.R
 
 ## Data
