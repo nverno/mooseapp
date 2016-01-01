@@ -1,9 +1,9 @@
 ;;; org-vals.el --- 
 ;; Filename: org-vals.el
-;; Description: 
+;; Description: Org publish options
 ;; Author: Noah Peart
 ;; Created: Mon Oct 26 21:13:26 2015 (-0400)
-;; Last-Updated: Sat Oct 31 02:02:59 2015 (-0400)
+;; Last-Updated: Thu Dec 31 18:25:24 2015 (-0500)
 ;;           By: Noah Peart
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'ox-publish)
@@ -11,13 +11,13 @@
 (setq projdir
       (cond
        ((string-equal system-type "windows-nt")
-	"C:/home/work/plotstats/app/org/")
-       (t "~/work/plotstats/app/org")))
+	"C:/home/work/mooseapp/inst/app/org/")
+       (t "~/work/mooseapp/inst/app/org")))
 (setq htmldir
       (cond
        ((string-equal system-type "windows-nt")
-	"C:/home/work/plotstats/app/www/org/html/")
-       (t "~/work/plotstats/app/www/org/html/")))
+	"C:/home/work/mooseapp/inst/app/www/org/html/")
+       (t "~/work/mooseapp/inst/app/www/org/html/")))
 (setq theme-file "theme-bigblow.setup")
 (setq preamble (prep-org (get-string-from-file theme-file)))
 
@@ -35,7 +35,7 @@
 	 :html-link-home "sitemap.html"
 	 :auto-preamble t)
 
-	("plotstats" :components ("orgfiles"))))
+	("mooseapp" :components ("orgfiles"))))
 
 
 
