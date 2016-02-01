@@ -1,13 +1,12 @@
 ### code.R --- 
 ## Filename: code.R
-## Description: 
+## Description: Add an aceEditor code panel
 ## Author: Noah Peart
 ## Created: Sun Nov  1 00:18:47 2015 (-0400)
-## Last-Updated: Sun Nov  1 01:52:58 2015 (-0400)
+## Last-Updated: Mon Feb  1 14:57:26 2016 (-0500)
 ##           By: Noah Peart
 ######################################################################
 ## Prefix: 'code'
-
 output$codeOutput <- renderPrint({
     input$codeEval
     input$runKey
